@@ -1,0 +1,193 @@
+
+@import 'home.css';
+@import 'footer.css';
+
+
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.parent__inner {
+    width: 500px;
+}
+
+body{
+    width: 100%;
+    min-height: 200vh;
+    display:contents;
+    justify-content: center;
+    align-items: center;
+    background: #f5f5f5;
+    font-family: 'roboto', sans-serif;
+
+}
+
+.loader{
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.logo{
+    height: 80px;
+    display: block;
+    margin: 0 auto 50px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+    margin-top: 100px;
+    margin-bottom: 1px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"]{
+    display: block;
+    justify-content: center;
+
+    width: 300px;
+    height: 40px;
+    padding: 20px;
+    border-radius: 5px;
+    background: #fff;
+    border: none;
+    outline: none;
+    margin: 20px 0;
+    text-transform: capitalize;
+    color: #383838;
+    font-size: 14px;
+    box-shadow: 0 4px 10px rgba(0,0, 0, 0.01);
+    font-family: 'roboto', sans-serif;
+    align-items: center;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: thin;
+}
+
+::placeholder{
+    color: #383838;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-btn{
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: #383838;
+    color: #fff;
+    border-radius: 2px;
+    text-transform: capitalize;
+    border: none;
+    cursor: pointer;
+    margin: 30px 0;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.checkbox{
+    -webkit-appearance: none;
+    position: relative;
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+    background: #fff;
+    border: 1px solid #383838;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.checkbox:checked{
+    background: #383838;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.checkbox::after{
+    content: '';
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    width:80%;
+    height: 100;
+    pointer-events: none;
+    background-image: url(check.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: contents;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.checkbox:checked::after{
+    display: contents;
+    justify-content: center;
+    align-items: center;
+
+}
+
+label{
+    text-transform: capitalize;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #383838;
+    justify-content: center;
+    align-items: center;
+
+}
+
+label a{
+    color: #383838;
+    justify-content: center;
+    align-items: center;
+
+}
+.abc{
+
+
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    text-decoration: black;
+    font-size: larger;
+    font-style: inherit;
+    align-items: center;
+    margin-right: 200px;
+
+
+
+}
+
+.link{
+    color: #383838;
+    text-transform: capitalize;
+    text-align: center;
+    display:contents;
+    justify-content: center;
+    align-items: center;
+}

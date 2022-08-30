@@ -1,0 +1,10 @@
+@import 'footer.css';
+@import 'home.css';
+
+*{
+    background-color: #a9a9a9;
+    align-items: initial;
+    text-align: initial
+
+}
+

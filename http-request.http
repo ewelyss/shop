@@ -1,0 +1,53 @@
+###
+POST https://localhost:8080/register-action
+
+###
+POST https://localhost:8080/register-action
+
+###
+GET https://localhost:8080
+
+
+<> 2022-08-29T213535-1.500.json
+<> 2022-08-29T213535.500.json
+<> 2022-08-29T213530.500.json
+<> 2022-08-29T213528.500.json
+<> 2022-08-29T213526.500.json
+<> 2022-08-29T213455.500.json
+<> 2022-08-29T213445.500.json
+<> 2022-08-29T213221.500.json
+<> 2022-08-29T213142.500.json
+<> 2022-08-29T213104.500.json
+
+###
+GET https://localhost:8080
+
+###
+GET http://localhost:8080/add
+
+###
+GET https://localhost/add
+
+###
+GET http://localhost:8080/
+
+###
+POST http://localhost:8080/register-action
+
+###
+GET http://localhost:8080/
+
+###
+GET http://localhost:8080/./signup
+
+<> 2022-08-29T211710.404.json
+<> 2022-08-29T211705.404.json
+
+###
+POST http://127.0.0.1:8080/register-action
+
+<> 2022-08-29T211741.400.json
+<> 2022-08-29T211713.400.json
+<> 2022-08-29T211633.400.json
+
+###

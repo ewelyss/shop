@@ -1,0 +1,21 @@
+@import 'footer.css';
+@import 'home.css';
+
+.h-about{
+    color: blueviolet;
+    text-decoration: solid;
+
+}
+.p-about{
+    text-decoration: none;
+
+}
+
+.img-about{
+    width: 480px;
+    height: 380px;
+    align-items: center;
+    align-content: center;
+
+}
+

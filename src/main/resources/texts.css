@@ -1,0 +1,15 @@
+#container{
+    margin: 20px;
+    font-size: xx-large;
+    width: 300px;
+    border: 1px solid;
+}
+
+.firstDiv{
+    border: 5px solid red;
+
+}
+
+.secondDiv{
+    border: 5px solid blue;
+}

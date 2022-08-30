@@ -1,0 +1,25 @@
+@import 'footer.css';
+@import 'home.css';
+
+
+
+
+.cart-btn{
+    width: 200px;
+    background: lightgray;
+    border: solid 5px;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: unset;
+    text-decoration: none;
+
+}
+
+.product-card:hover .cart-btn{
+    opacity: 1;
+}
+
+.cart-btn:hover{
+    background: #efefef;
+}
